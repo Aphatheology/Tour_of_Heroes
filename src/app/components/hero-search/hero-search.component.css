@@ -1,5 +1,11 @@
 /* HeroSearch private styles */
 
+#search-component {
+    text-align: center;
+    padding: 15px 30px;
+    margin: 10px auto;
+    max-width: 750px;
+}
 label {
     display: block;
     font-weight: bold;
@@ -10,8 +16,9 @@ label {
   }
   input {
     padding: .5rem;
-    width: 100%;
+    width: 90%;
     max-width: 600px;
+    margin: auto;
     box-sizing: border-box;
     display: block;
   }

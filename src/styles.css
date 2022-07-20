@@ -1,5 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
 /* Application-wide Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap');
+
+:root {
+    --prycyan: hsl(193, 38%, 86%);
+    --prygreen: hsl(150, 100%, 66%);
+    --neublue: hsl(217, 19%, 38%);
+    --neugrayblue: hsl(217, 19%, 24%);
+    --neudarkblue: hsl(218, 23%, 16%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+html {
+    width: 100vw;
+}
+
+body {
+    width: 100%;
+}
+
+
+
+
+
 h1 {
     color: #369;
     font-family: Arial, Helvetica, sans-serif;
@@ -10,10 +40,7 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
   }
-  body {
-    margin: 2em;
-  }
-  body, input[type="text"], button {
+   input[type="text"], button {
     color: #333;
     font-family: Cambria, Georgia, serif;
   }
@@ -39,7 +66,3 @@ h1 {
     cursor: auto;
   }
   
-  /* everywhere else */
-  * {
-    font-family: Arial, Helvetica, sans-serif;
-  }
