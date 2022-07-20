@@ -1,4 +1,10 @@
 /* HeroDetailComponent's private CSS styles */
+
+.hero-detail {
+    max-width: 750px;
+    margin: 10px auto;
+    padding: 15px 30px;
+}
 label {
     color: #435960;
     font-weight: bold;
@@ -14,6 +20,7 @@ label {
     padding: 1rem;
     border-radius: 4px;
     font-size: 1rem;
+    text-transform: capitalize;
   }
   button:hover {
     background-color: #cfd8dc;
@@ -22,4 +29,8 @@ label {
     background-color: #eee;
     color: #ccc;
     cursor: auto;
+  }
+
+  button:last-of-type {
+    display: block;
   }
